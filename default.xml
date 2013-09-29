@@ -13,6 +13,9 @@
   <remote  name="ls"
            fetch="git://github.com/LiquidSmooth/" />
 
+  <remote  name="as"
+           fetch="git://github.com/AlbertoSONIC/" />
+
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
 
@@ -381,6 +384,12 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.2" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.2" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
-  <project path="device/htc/m7ul" name="CyanogenMod/android_device_htc_m7ul" remote ="cm" revision="cm-10.1" />
-<project path="vendor/htc/m7-common" name="AlbertoSONIC/android_device_htc_m7ul" remote ="gh" revision="cm-10.1" />
+  
+  
+  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="as" revision="jb3" />
+  <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="as" revision="jb3" />
+  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="as" revision="jb3" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="as" revision="jb3" />
+  <project path="kernel/htc/msm8960" name="CyanogenMod/android_kernel_htc_msm8960" remote="cm" revision="cm-10.2" />
+  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="as" revision="jb3-tS" />
 </manifest>
